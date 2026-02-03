@@ -75,7 +75,7 @@ function renderList() {
 
     del.textContent = "delete";
     edit.textContent = "edit";
-    h2.textContent = el.age ? `${reg(el.name)} — ${el.age}` : reg(el.name);
+    h2.textContent = `${reg(el.name)} — ${el.age}`;
 
     inputEditName.placeholder = "Name";
     inputEditAge.placeholder = "Age";
